@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href=""/>
+    <link rel="stylesheet" href="style.css"/>
     <title>Pizza Plaza Place</title>
 </head>
 <body>
     <nav class="main-nav" id="main-nav">
         <ul class="main-nav-items" id="main-nav-items">
             <li>
-                <a href="#" class="home-button" id="home-button">HOME</a>
+                <a href="#" class="home-link" id="home-link">HOME</a>
             </li>
 
             <li>
-                <a href="#" class="menu-button" id="menu-button">MENU</a>
+                <a href="#menu" class="menu-link" id="menu-link">MENU</a>
             </li>
 
             <li>
-                <a href="#" class="about-button" id="about-button">ABOUT</a>
+                <a href="#about" class="about-link" id="about-link">ABOUT</a>
             </li>
 
             <li>
-                <a href="#" class="contact-button" id="contact-button">CONTACT</a>
+                <a href="#contact" class="contact-link" id="contact-link">CONTACT</a>
             </li>
         </ul>
 
@@ -37,15 +37,14 @@
     </nav>
 
     <header class="hero" id="hero">
-        <img src=""/>
         <div>
             <span class="restaurant-name">ARTISAN PIZZA</span>
         </div>
         <div>
-            <span class="hero-menu" id="hero-menu">SEE OUR MENU</span>
+            <span><a href="#menu" class="hero-menu" id="hero-menu">SEE OUR MENU</a></span>
         </div>
         <div>
-            <span>OPEN FROM 10AM TO 10PM</span>
+            <span class="open-time" id="open-time">OPEN FROM 10AM TO 10PM</span>
         </div>
     </header>
 
@@ -66,52 +65,79 @@
             </div>
 
             <div class="pizza-container" id="pizza-container">
-                <h2>Our Special Handmade Pizzas</h2>
+                <h2>Our Special Handmade Pizzas:</h2>
 
-                <h1>ITEM<span class="item-price" id="item-price">PRICE</span></h1>
-                <P class="item-description" id="item-description">DESCRIPTION</P>
+                <h1>MEAT THE ARTISAN<span class="item-price" id="item-price"> $22.00</span></h1>
+                <P class="item-description" id="item-description">Pepperoni, Sausage, Fresh Tomatoes, Mozzarella</P>
 
-                <h1>ITEM<span class="item-price" id="item-price">PRICE</span></h1>
-                <P class="item-description" id="item-description">DESCRIPTION</P>
+                <h1>MARGHERITA<span class="item-price" id="item-price"> $15.00</span></h1>
+                <P class="item-description" id="item-description">Fresh Tomatoes, Mozzarella, Fresh Basil</P>
 
-                <h1>ITEM<span class="item-price" id="item-price">PRICE</span></h1>
-                <P class="item-description" id="item-description">DESCRIPTION</P>
+                <h1>FORMAGGIO<span class="item-price" id="item-price"> $17.50</span></h1>
+                <P class="item-description" id="item-description">Four Cheeses (Mozzarella, Parmesan, Pecorino, Jarlsberg)</P>
             </div>
 
             <div class="sides-container" id="sides-container">
-                <h2>Delicious Pasta and Wings</h2>
+                <h2>Delicious Compliments To Our Pizza:</h2>
 
-                <h1>ITEM<span class="item-price" id="item-price">PRICE</span></h1>
-                <P class="item-description" id="item-description">DESCRIPTION</P>
+                <h1>CLASSIC SPAGHETTI<span class="item-price" id="item-price"> $12.00</span></h1>
+                <P class="item-description" id="item-description">Fresh Tomatoes, Onions, Ground Beef</P>
 
-                <h1>ITEM<span class="item-price" id="item-price">PRICE</span></h1>
-                <P class="item-description" id="item-description">DESCRIPTION</P>
+                <h1>FETTUCCINE ALFREDO<span class="item-price" id="item-price"> $15.00</span></h1>
+                <P class="item-description" id="item-description">Chicken, Parmesan, Creamy Butter, Garlic</P>
 
-                <h1>ITEM<span class="item-price" id="item-price">PRICE</span></h1>
-                <P class="item-description" id="item-description">DESCRIPTION</P>
+                <h1>SEAFOOD PASTA<span class="item-price" id="item-price"> $24.50</span></h1>
+                <P class="item-description" id="item-description">Shrimp, Lobster, Garlic</P>
             </div>
 
             <div class="starter-container" id="starter-container">
-                <h2>Entrees To Get You Started</h2>
+                <h2>Entrees To Get You Started:</h2>
 
-                <h1>ITEM<span class="item-price" id="item-price">PRICE</span></h1>
-                <P class="item-description" id="item-description">DESCRIPTION</P>
+                <h1>TODAY'S SOUP<span class="item-price" id="item-price"> $5.50</span></h1>
+                <P class="item-description" id="item-description" style="font-style: italic;">*Ask Your Waiter*</P>
 
-                <h1>ITEM<span class="item-price" id="item-price">PRICE</span></h1>
-                <P class="item-description" id="item-description">DESCRIPTION</P>
+                <h1>GARLIC BREAD<span class="item-price" id="item-price"> $9.50</span></h1>
+                <P class="item-description" id="item-description">Grilled Ciabatta, Garlic Butter, Onions</P>
 
-                <h1>ITEM<span class="item-price" id="item-price">PRICE</span></h1>
-                <P class="item-description" id="item-description">DESCRIPTION</P>
+                <h1>CAESAR SALAD<span class="item-price" id="item-price"> $7.50</span></h1>
+                <P class="item-description" id="item-description">Romaine Hearts, Caesar Dressing, Croutons, Parmesan</P>
             </div>
         </div>
     </section>
 
     <section class="about" id="about">
-        <div></div>
+        <div class="about-container" id="about-container">
+            <h1>About Us</h1>
+            <p>The Pizza Plaza Place was established by the legendary Mr. Mario Luigi in 19XX. Serving the area for X decades,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <p>We are proud of our legacy and our pizza.</p>
+            <img src="">
+
+            <!-- Opening Hours -->
+
+            <!-- Image of location/map-->
+        </div>
     </section>
 
     <section class="contact" id="contact">
-        <div></div>
+        <div class="contact-container" id="contact-container">
+            <h1>Contact Us</h1>
+            <p>Location:</p>
+            <p>Call us:</p>
+            <p><span>Also! </span>We offer catering services for your large or small events!</p>
+            <p>Reserve a table or ask a question:</p>
+            <form>
+                <input class="" type="text" placeholder="Name" required name="Name">
+                <input class="" type="number" placeholder="How Many People" required name="People">
+                <input class="" type="datetime-local" placeholder="Date and Time" required name="Date">
+                <input class="" type="text" placeholder="Message/Question" required name="Message">
+                <button class="" type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
     </section>
 
     <footer></footer>
