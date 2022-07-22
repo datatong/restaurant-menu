@@ -1,8 +1,4 @@
 
-* {
-    /*background-color: black;*/
-}
-
 body {
     background-color: black;
 }
@@ -108,7 +104,7 @@ a:active {
     background-color: black;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border: 1px solid white;
     border-bottom: 0px;
 }
@@ -128,8 +124,8 @@ a:active {
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .sides-container {
@@ -137,8 +133,8 @@ a:active {
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .starter-container {
@@ -146,17 +142,22 @@ a:active {
     flex-direction: column;
     justify-content: center;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .item-price {
-
+    background-color: lightgrey;
+    color: black;
+    border-radius: 2px;
+    padding: 3px 5px 3px 5px;
 }
 
 .pizza-container > h1 {
     margin-top: 25px;
     margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .pizza-container > p {
@@ -167,6 +168,8 @@ a:active {
 .sides-container > h1 {
     margin-top: 25px;
     margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sides-container > p {
@@ -177,6 +180,8 @@ a:active {
 .starter-container > h1 {
     margin-top: 25px;
     margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .starter-container > p {
@@ -200,6 +205,7 @@ h2 {
     text-align: center;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .about-container {
@@ -220,6 +226,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .location {
