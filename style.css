@@ -101,6 +101,7 @@ a:active {
 .menu-heading {
     display: flex;
     justify-content: center;
+    color: lightgray;
 }
 
 .menu-nav {
@@ -115,6 +116,7 @@ a:active {
 .menu-nav > a:hover {
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 
 .menu-nav > a > div {
@@ -194,9 +196,75 @@ h2 {
 }
 
 .about {
-    background-color: tan;
+    color: lightgrey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1000px;
+}
+
+.about-container > p {
+    font-size: 20px;
+}
+
+.pizza-chef {
+    width: 75%;
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location {
+    background-image: url(assets/images/overhead-street.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
 }
 
 .contact {
-    background-color: grey;
+    background-color: rgb(155, 162, 172);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.contact-container {
+    width: 1000px;
+}
+
+.contact-container > h1 {
+    text-align: center;
+}
+
+.contact-container > p {
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
