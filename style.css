@@ -126,6 +126,7 @@ a:active {
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
+    visibility: visible;
 }
 
 .sides-container {
@@ -135,6 +136,7 @@ a:active {
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
+    visibility: collapse;
 }
 
 .starter-container {
@@ -144,6 +146,7 @@ a:active {
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
+    visibility: collapse;
 }
 
 .item-price {
